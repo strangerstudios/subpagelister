@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.subpagelist_item {
+	padding-top: 3rem;
+}
+.subpagelist_item h1 {
+	clear: none;
+}
+.subpagelist_item .entry-content {
+	padding-bottom: 3rem;
+}
+.subpagelist_btn,
+.subpagelist_btn:link {
+	background: #95a5a6;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: none;
+	color: #FFF !important;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+	padding: .25rem .75rem;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: color, background-color;
+	transition-property: color, background-color;
+}
+.subpagelist_btn:hover,
+.subpagelist_btn:active,
+.subpagelist_btn:focus {
+	background: #798d8f;
+	color: #FFF;
+}
+.subpagelist_btn-block, 
+.subpagelist_btn-block:link {
+	display: block;
+}
+.subpagelist .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 73.125em; }
+  .subpagelist .row:before, .subpagelist .row:after {
+    content: " ";
+    display: table; }
+  .subpagelist .row:after {
+    clear: both; }
+  .subpagelist .column,
+  .subpagelist .columns {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    float: left; }
+
+.subpagelist [class*="column"] + [class*="column"]:last-child {
+  float: right; }
+
+.subpagelist [class*="column"] + [class*="column"].end {
+  float: left; }
+  
+.subpagelist .small-12 {
+  width: 100%; }
+	
+@media only screen and (min-width: 40.063em) {
+  .subpagelist .medium-1 {
+    width: 8.33333%; }
+
+  .subpagelist .medium-2 {
+    width: 16.66667%; }
+
+  .subpagelist .medium-3 {
+    width: 25%; }
+
+  .subpagelist .medium-4 {
+    width: 33.33333%; }
+
+  .subpagelist .medium-5 {
+    width: 41.66667%; }
+
+  .subpagelist .medium-6 {
+    width: 50%; }
+
+  .subpagelist .medium-7 {
+    width: 58.33333%; }
+
+  .subpagelist .medium-8 {
+    width: 66.66667%; }
+
+  .subpagelist .medium-9 {
+    width: 75%; }
+
+  .subpagelist .medium-10 {
+    width: 83.33333%; }
+
+  .subpagelist .medium-11 {
+    width: 91.66667%; }
+
+  .subpagelist .medium-12 {
+    width: 100%; }
+}
