@@ -11,7 +11,7 @@ Dynamic content organization with flexible display options.
 
 == Description ==
 
-Shows a list of a subpages, with display options for content or excerpts, buttons and links, featured images, and layout. Enter the shortcode [subpagelist] in any page to generate the list. An example shortcode and all shortcode attributes are displayed below:
+Shows a list of subpages, with display options for content or excerpts, buttons and links, featured images, and layout. Enter the shortcode [subpagelist] in any page to generate the list. An example shortcode and all shortcode attributes are displayed below:
 
 = Example Subpagelist Shortcode =
 [subpagelist exclude="3,5" layout="3col" link="true" orderby="title" order="ASC" show="excerpt" thumbnail="thumbnail"]
@@ -42,7 +42,7 @@ In your WordPress admin, go to Plugins > Add New to install Subpagelister, or:
 = Start Using the Shortcodes =
 Browse the Subpagelister documentation to see all shortcode attributes and to view sample shortcode demos.
 
-[View Documentation](http://strangerstudios.com/plugins/subpagelister/)
+[View Documentation](http://strangerstudios.com/subpagelister/)
 
 == Screenshots ==
 1. Sample shortcode output of [subpagelist link="button" link_text="Keep Reading" orderby="title" show="excerpt" thumbnail="medium" thumbnail_align="left"]
@@ -52,7 +52,7 @@ Browse the Subpagelister documentation to see all shortcode attributes and to vi
 == Frequently Asked Questions ==
 
 = Where can I find Subpagelister documentation? =
-For help setting up and configuring the Subpagelister plugin, please refer to [documentation](http://strangerstudios.com/plugins/subpagelister/).
+For help setting up and configuring the Subpagelister plugin, please refer to [documentation](http://strangerstudios.com/subpagelister/).
 
 == Changelog ==
 
